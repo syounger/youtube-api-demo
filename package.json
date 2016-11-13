@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node tests",
-    "start": "node index.js",
-    "haromy-start": "node --harmony --harmony-modules  index.js"
+    "start": "node index.js"
   },
   "author": "Simcha Younger",
   "license": "ISC",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/syounger/youtube-api-demo.git",
   "dependencies": {
     "axios": "^0.15.2",
     "bluebird": "^3.4.6",
