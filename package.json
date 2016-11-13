@@ -1,0 +1,27 @@
+{
+  "name": "demo-youtube-api-gateway",
+  "version": "0.0.0",
+  "description": "Demo Youtube Api Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node tests",
+    "start": "node index.js",
+    "haromy-start": "node --harmony --harmony-modules  index.js"
+  },
+  "author": "Simcha Younger",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.16.6",
+    "mongodb": "^2.2.11",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "frisby": "^0.8.5"
+  }
+}
